@@ -88,6 +88,7 @@ Here are the issues I've had with GitHub so far for easy troubleshooting.
 **17. GitHub Actions:**
     - Set up and manage GitHub Actions workflows to automate tasks, tests, and deployments in your repository.
 
+# Reset Data and New Setup
 নির্দিত কমান্ডগুলি Git এবং GitHub রিপোজিটরি সাথে কাজ করার জন্য ব্যবহার করা হয়, তবে এই কমান্ড সমস্যায় পড়তে পারে এবং আপনার রিপোজিটরি ডেটা হারানোর আশঙ্কা আছে।
 
 এই কমান্ডগুলি ব্যবহার করার আগে, আপনার রিপোজিটরির ডেটা এবং কনফিগারেশন ব্যবস্থাপনা নিশ্চিত করুন।
