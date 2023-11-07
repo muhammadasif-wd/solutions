@@ -133,3 +133,13 @@ Here are the issues I've had with GitHub so far for easy troubleshooting.
    ```
 
 এই কমান্ডগুলি সতর্কতাসহ ব্যবহার করুন এবং সতর্কতা সাবধানী মেনে নিন, কারণ এই কমান্ডগুলি পুরোনো রিপোজিটরির ডেটা মুছে ফেলতে পারে এবং ডেটা পুনরুদ্ধার সম্ভাবনা নিয়ে অসুরক্ষিত করতে পারে।
+
+# Branch Reset and Pulling Everything
+1. ব্রাঞ্চ এর ডাটা ফেচ করুন:
+   ```
+   git fetch origin main
+   ```
+2. এবার ব্রাঞ্চ এর ডাটা রিসেট করার জন্য নিচের কমান্ডটি চালান:
+   ```
+   git reset --hard FETCH_HEAD
+   ```
