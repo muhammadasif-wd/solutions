@@ -104,13 +104,21 @@
 - **npm:**
   ```bash
   npm version major
+  ```
+  ```bash
   npm version minor
+  ```
+  ```bash
   npm version patch
   ```
 - **Yarn:**
   ```bash
   yarn version --major
+  ```
+  ```bash
   yarn version --minor
+  ```
+  ```bash
   yarn version --patch
   ```
 ```
