@@ -1,4 +1,3 @@
-```markdown
 # Package Management Commands: npm vs Yarn
 
 ## Initialization
