@@ -121,4 +121,3 @@
   ```bash
   yarn version --patch
   ```
-```
