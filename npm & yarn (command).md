@@ -1,4 +1,4 @@
-# Package Management Commands: npm vs Yarn
+# Package Management Commands: npm & yarn
 
 ## Initialization
 
