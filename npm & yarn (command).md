@@ -1,296 +1,117 @@
-### NPM:
+```markdown
+# Package Management Commands: npm vs Yarn
 
-1. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
+## Initialization
 
-2. **Install Package:**
-   ```bash
-   npm install [package]
-   ```
-
-3. **Install Dev Package:**
-   ```bash
-   npm install --save-dev [package]
-   ```
-
-4. **Uninstall Package:**
-   ```bash
-   npm uninstall [package]
-   ```
-
-5. **Uninstall Dev Package:**
-   ```bash
-   npm uninstall --save-dev [package]
-   ```
-
-6. **Update:**
-   ```bash
-   npm update
-   ```
-
-7. **Update Package:**
-   ```bash
-   npm update [package]
-   ```
-
-8. **Global Install Package:**
-   ```bash
-   npm install --global [package]
-   ```
-
-9. **Global Uninstall Package:**
-   ```bash
-   npm uninstall --global [package]
-   ```
-
-### Yarn:
-
-1. **Install Dependencies:**
-   ```bash
-   yarn
-   ```
-  2. **Install Package:**
-   ```bash
-   yarn add [package]
-   ```
-  3. **Install Dev Package:**
-   ```bash
-   yarn add --dev [package]
-   ```
-  4. **Uninstall Package:**
-   ```bash
-   yarn remove [package]
-   ```
-  5. **Uninstall Dev Package:**
-   ```bash
-   yarn remove [package]
-   ```
-  6. **Update:**
-   ```bash
-   yarn upgrade
-   ```
-  7. **Update Package:**
-   ```bash
-   yarn upgrade [package]
-   ```
-  8. **Global Install Package:**
-   Yarn doesn't have a direct equivalent to NPM's `-g` flag, but you can use global binaries installed by Yarn in your scripts.
-
-9. **Global Uninstall Package:**
-   Yarn doesn't have a direct equivalent to NPM's `-g` flag, but you can use global binaries installed by Yarn in your scripts.
-
-### Commands that Haven’t Changed:
-
-- **Initialize a Project:**
+- **npm:**
   ```bash
   npm init
   ```
-
+- **Yarn:**
   ```bash
   yarn init
   ```
- - **Run Scripts:**
+
+## Install Dependencies
+
+- **npm:**
   ```bash
-  npm run
+  npm install
+  ```
+- **Yarn:**
+  ```bash
+  yarn install
   ```
 
+## Install Specific Package
+
+- **npm:**
   ```bash
-  yarn run
+  npm install [package]
   ```
- - **Run Tests:**
+- **Yarn:**
   ```bash
-  npm test
+  yarn add [package]
   ```
 
+## Install Dev Package
+
+- **npm:**
   ```bash
-  yarn test
+  npm install --save-dev [package]
   ```
- - **Login and Logout:**
+- **Yarn:**
   ```bash
-  npm login
+  yarn add [package] --dev
   ```
 
+## Global Install Package
+
+- **npm:**
   ```bash
-  npm logout
+  npm install --global [package]
+  ```
+- **Yarn:**
+  ```bash
+  yarn global add [package]
   ```
 
+## Update Dependencies
+
+- **npm:**
   ```bash
-  yarn login
+  npm update --global
   ```
-   ```bash
-  yarn logout
-  ```
- - **Link:**
+- **Yarn:**
   ```bash
-  npm link
+  yarn upgrade
   ```
 
+## Uninstall Package
+
+- **npm:**
   ```bash
-  yarn link
+  npm uninstall [package]
   ```
- - **Publish:**
+- **Yarn:**
   ```bash
-  npm publish
+  yarn remove [package]
   ```
-  
-  ```bash
-  yarn publish
-  ```
-- **Cache Clean:**
+
+## Cache Management
+
+- **npm:**
   ```bash
   npm cache clean
   ```
-
+- **Yarn:**
   ```bash
   yarn cache clean
   ```
-### NPM:
 
-1. **Install Dependencies:**
-   ```bash
-   npm install
-   ```
+## Force Install
 
-2. **Install Package:**
-   ```bash
-   npm install [package]
-   ```
-
-3. **Install Dev Package:**
-   ```bash
-   npm install --save-dev [package]
-   ```
-
-4. **Uninstall Package:**
-   ```bash
-   npm uninstall [package]
-   ```
-
-5. **Uninstall Dev Package:**
-   ```bash
-   npm uninstall --save-dev [package]
-   ```
-
-6. **Update:**
-   ```bash
-   npm update
-   ```
-
-7. **Update Package:**
-   ```bash
-   npm update [package]
-   ```
-
-8. **Global Install Package:**
-   ```bash
-   npm install --global [package]
-   ```
-
-9. **Global Uninstall Package:**
-   ```bash
-   npm uninstall --global [package]
-   ```
-
-### Yarn:
-
-1. **Install Dependencies:**
-   ```bash
-   yarn
-   ```
-  2. **Install Package:**
-   ```bash
-   yarn add [package]
-   ```
-  3. **Install Dev Package:**
-   ```bash
-   yarn add --dev [package]
-   ```
-  4. **Uninstall Package:**
-   ```bash
-   yarn remove [package]
-   ```
-  5. **Uninstall Dev Package:**
-   ```bash
-   yarn remove [package]
-   ```
-  6. **Update:**
-   ```bash
-   yarn upgrade
-   ```
-  7. **Update Package:**
-   ```bash
-   yarn upgrade [package]
-   ```
-  8. **Global Install Package:**
-   Yarn doesn't have a direct equivalent to NPM's `-g` flag, but you can use global binaries installed by Yarn in your scripts.
-
-9. **Global Uninstall Package:**
-   Yarn doesn't have a direct equivalent to NPM's `-g` flag, but you can use global binaries installed by Yarn in your scripts.
-
-### Commands that Haven’t Changed:
-
-- **Initialize a Project:**
+- **npm:**
   ```bash
-  npm init
+  rm -rf node_modules && npm install
+  ```
+- **Yarn:**
+  ```bash
+  yarn upgrade
   ```
 
-  ```bash
-  yarn init
-  ```
- - **Run Scripts:**
-  ```bash
-  npm run
-  ```
+## Version Bumping
 
+- **npm:**
   ```bash
-  yarn run
+  npm version major
+  npm version minor
+  npm version patch
   ```
- - **Run Tests:**
+- **Yarn:**
   ```bash
-  npm test
+  yarn version --major
+  yarn version --minor
+  yarn version --patch
   ```
-
-  ```bash
-  yarn test
-  ```
- - **Login and Logout:**
-  ```bash
-  npm login
-  ```
-
-  ```bash
-  npm logout
-  ```
-
-  ```bash
-  yarn login
-  ```
-   ```bash
-  yarn logout
-  ```
- - **Link:**
-  ```bash
-  npm link
-  ```
-
-  ```bash
-  yarn link
-  ```
- - **Publish:**
-  ```bash
-  npm publish
-  ```
-  
-  ```bash
-  yarn publish
-  ```
-- **Cache Clean:**
-  ```bash
-  npm cache clean
-  ```
-
-  ```bash
-  yarn cache clean
-  ```
+```
