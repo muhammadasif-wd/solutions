@@ -1,3 +1,6 @@
+# My VS Code Settings
+Below are my settings for Visual Studio Code. These settings are configured to optimize my coding experience and productivity.
+
 ```{
   // editor
   "editor.fontFamily": "JetBrains Mono",
@@ -71,3 +74,5 @@
   "cSpell.words": ["tailwindcss", "Asif", "iconify", "nextui"]
 }
 ```
+
+Feel free to copy and paste these settings into your own settings.json file in Visual Studio Code.
