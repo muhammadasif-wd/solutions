@@ -1,4 +1,4 @@
-{
+```{
   // editor
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 16,
@@ -70,3 +70,4 @@
   "tailwindCSS.emmetCompletions": true,
   "cSpell.words": ["tailwindcss", "Asif", "iconify", "nextui"]
 }
+```
