@@ -1,7 +1,8 @@
 # My VS Code Settings
 Below are my settings for Visual Studio Code. These settings are configured to optimize my coding experience and productivity.
 
-```{
+```
+{
   // editor
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 16,
